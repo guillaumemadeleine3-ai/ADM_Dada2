@@ -9,4 +9,8 @@ library(dada2); packageVersion("dada2")
 wget https://mothur.s3.us-east-2.amazonaws.com/wiki/miseqsopdata.zip
 unzip miseqsopdata.zip
 ```
+```{r}
+path <- "/home/rstudio/ADM_Test/MiSeq_SOP" # CHANGE ME to the directory containing the fastq files after unzipping.
+list.files(path)
+```
 
