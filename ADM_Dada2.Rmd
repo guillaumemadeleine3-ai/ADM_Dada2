@@ -120,3 +120,14 @@ match.ref <- sum(sapply(names(unqs.mock), function(x) any(grepl(x, mock.ref))))
 cat("Of those,", sum(match.ref), "were exact matches to the expected reference sequences.\n")
 ```
 
+```{r}
+install.packages("igraph", type = "source")
+BiocManager::install("phyloseq", update = FALSE, force = TRUE)
+```
+
+
+
+
+
+
+
